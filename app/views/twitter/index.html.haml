@@ -1,0 +1,7 @@
+- for tweet in @tweets
+  .tweet
+    %img{src: "#{tweet[:user][:profile_image_url]}"}
+    %p
+      = tweet[:text]
+    %p.time
+      = tweet[:created_at]
