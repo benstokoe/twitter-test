@@ -9,4 +9,4 @@ Uses Moment js to work out the time from now
 
 Currently in a controller but with plans to refactor
 
-This contains no testing, it is just a test
+This contains no testing at the moment; will be added later
